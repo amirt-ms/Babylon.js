@@ -1368,6 +1368,7 @@ export class TransformNode extends Node {
             }
         }
         this.scaling.copyFromFloats(1, 1, 1);
+        this.scalingDeterminant = 1;
         this.position.copyFromFloats(0, 0, 0);
         this.rotation.copyFromFloats(0, 0, 0);
 
